@@ -1,0 +1,17 @@
+{
+    "size":{"width":50,"height":37},
+    "count":{"rows":16,"coulmns":7},
+    "states":{
+        "idle":"0 1 2 3",
+        "crouching":"4 5 6 7",
+        "running":"8 9 10 11 12 13",
+        "jumping":"14 15 16 17",
+        "falling":"18 22 23",
+        "ready":"38 39 40 41",
+        "atacking":{
+            "1":"42 43 44 45 46 47 48",
+            "2":"49 50 51 52",
+            "3":""
+        }
+    }
+}
