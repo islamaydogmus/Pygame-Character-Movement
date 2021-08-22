@@ -18,7 +18,7 @@ char = ""
 
 ###################### Character Display handling ##############################
 
-characher_sprite_sheet = Spritesheet("TurnBasedGameMech/Sprites/hero.png")
+characher_sprite_sheet = Spritesheet("TurnBasedGameMech/Sprites/hero.png") #!!!!!!!!!!!!!!!!!!!!!!!! This should cause some problem to you, VS code makes poinitng directories like this. 
 hero = characher_sprite_sheet.get_sprites()
 hero = [pygame.transform.scale(img, (158, 128)) for img in hero]
 render_speed = 1/10
